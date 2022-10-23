@@ -1,9 +1,29 @@
 .html {
-  background-color: #1f1f1f;
+  background-color:  #f2f2f2;
 }
+
 /* header */
 
 .header {
   max-height: 1100px;
+  margin-left: 64px;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo-place-header {
+  margin-top: 30px;
+}
+
+.title {
+  display: flex;
+  align-content: center;
+}
+
+.h1 {
+  height: ;
 }
 
