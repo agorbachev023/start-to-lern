@@ -82,14 +82,34 @@
 
 .brif {
   width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 .main-text {
   width: 80%; 
-  min-width: 784px
+  min-width: 784px;
 }
 
 .main-text-output {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* .main-text, .main-text-output {
+  line-height: 34px;
+  font-size: 15px;
+} */
+
+/* digits */
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  /* width: 60%; */
 }
