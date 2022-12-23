@@ -113,18 +113,20 @@
   justify-content: center;
   /* font-size: 60px;
   line-height: 1.15;; */
-/*   
-  width: 60%; */
+  margin: auto;
+  width: 60%;
 }
 
 .section-subtitle {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  
     /* line-height: 34px;
   font-size: 24px; */
-  /* width: 60%; */
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .table {
@@ -132,7 +134,10 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
   max-width: 1100px;
+  margin: auto;
   
 }
 
@@ -140,3 +145,60 @@
   width: 250px;
 }
 
+.heading {
+  margin-bottom: 20px;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.cell1 {
+  margin-top: 60px;
+}
+
+/* feynman */
+
+.feynman {
+  background-color:  #f2f2f2;
+  height: 890px;
+}
+
+
+.feynman-title {
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  width: 648px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.feynman-subtitle {
+  z-index: 2;
+  position: relative;
+}
+
+.feynman-link {
+
+  z-index: 3;
+}
+
+.feynman-img {
+  width: 867px;
+  height: 637px;
+  z-index: 1;
+  /* position: absolute; */
+  left: 0%;
+  bottom: ;
+} 
+
+/* .feynman-title {
+  line-height: 1.15;
+  font-size: 60px;
+  width: 648px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+} */
