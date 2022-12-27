@@ -194,20 +194,47 @@
   width: 867px;
   height: 637px;
   position: absolute;
-  top: 1905px;
+  top: 1925px;
   z-index: 1;
 }
 
 /* kaufman */
 
+.kaufman {
+  background-color: #1f1f1f;
+}
+
 .kaufman-title {
   line-height: 1.15;
   font-size: 60px;
-  margin-top: 90px;
+  padding-top: 90px;
   margin-bottom: 20px;
+  color: rgb(255, 255, 255);
 }
 
 .kaufman-subtitle {
   line-height: 34px;
   font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.theme-dark {
+  color:rgb(255, 255, 255);
+
+}
+
+.kaufman-cell {
+  padding-bottom: 90px;
+  
+}
+
+.kaufman-cell-width { 
+  max-width: 200px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1f1f1f;
+
 }
