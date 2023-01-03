@@ -194,7 +194,7 @@
   width: 867px;
   height: 637px;
   position: absolute;
-  top: 1925px;
+  top: 1905px;
   z-index: 1;
 }
 
@@ -225,16 +225,38 @@
 
 .kaufman-cell {
   padding-bottom: 90px;
-  
+
 }
 
 .kaufman-cell-width { 
   max-width: 200px;
 }
 
+.kaufman-cell-1 {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.kaufman-cell-2 {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.kaufman-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.triangle {
+  background-image: url(/images/kaufman-triangle.svg); 
+
+}
+
+
 /* footer */
 
 .footer {
   background-color: #1f1f1f;
+
 
 }
