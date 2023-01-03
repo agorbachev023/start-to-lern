@@ -202,6 +202,8 @@
 
 .kaufman {
   background-color: #1f1f1f;
+  z-index: 2;
+
 }
 
 .kaufman-title {
@@ -210,46 +212,64 @@
   padding-top: 90px;
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
+  z-index: 2;
+  position: relative;
+
 }
 
 .kaufman-subtitle {
   line-height: 34px;
   font-size: 24px;
   color: rgb(255, 255, 255);
+  z-index: 2;
+  position: relative;
+  display: flex;
+  
 }
 
 .theme-dark {
   color:rgb(255, 255, 255);
-
+  z-index: 2;
+  
 }
 
 .kaufman-cell {
   padding-bottom: 90px;
+  z-index: 2;
 
 }
 
 .kaufman-cell-width { 
   max-width: 200px;
+  z-index: 2;
 }
 
 .kaufman-cell-1 {
   display: flex;
   margin-bottom: 80px;
+  z-index: 2;
 }
 
 .kaufman-cell-2 {
   display: flex;
   margin-bottom: 80px;
+  z-index: 2;
 }
 
 .kaufman-flex {
   display: flex;
   justify-content: space-around;
+  z-index: 2;
 }
 
 .triangle {
   background-image: url(/images/kaufman-triangle.svg); 
-
+  width: 877px;
+  height: 877px;
+  margin-left: auto;
+  z-index: 1;
+  position: absolute;
+  right: 0%;
 }
 
 
@@ -257,6 +277,5 @@
 
 .footer {
   background-color: #1f1f1f;
-
 
 }
