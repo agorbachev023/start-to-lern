@@ -4,7 +4,7 @@
   min-width: 1100px;
 }
 
-.link {
+.link, a {
   text-decoration: none;
 }
 
@@ -279,6 +279,7 @@
   background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
+  color: rgb(255, 255, 255);
 }
 
 .columns {
@@ -291,5 +292,31 @@
 }
 
 .content-copyright {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.logo-place-footer {
+  position: relative;
+  top: 0%;
+}
+
+.abankin {
+  position: relative;
+  bottom: 0%;
+  padding: 18px 0px 18px 0px;
+}
+
+
+.column-right {
+  display: flex;
+  position: relative;
+  right: 0%;
+}
+
+
+.social-icon {
+  max-height: 10px;
+}
+
