@@ -280,6 +280,7 @@
   min-height: 350px;
   display: flex;
   color: rgb(255, 255, 255);
+  justify-content: center;
 }
 
 .columns {
@@ -287,8 +288,8 @@
   padding-top: 60px;
   padding-bottom: 40px;
   display: flex;
-  justify-content: center;
-  flex-basis: 711px;
+  /* flex-basis: 711px; */
+  justify-content: space-between;
 }
 
 .content-copyright {
@@ -308,6 +309,11 @@
   padding: 18px 0px 18px 0px;
 }
 
+.column-content {
+  padding: 20px 0 16px 0;
+}
+
+.con
 
 .column-right {
   display: flex;
@@ -315,8 +321,15 @@
   right: 0%;
 }
 
-
 .social-icon {
-  max-height: 10px;
+  font-size: 10px;
 }
 
+.social-icon-img {
+  height: 16px;
+  width: 16px;
+}
+
+.social-text {
+  font-size: 10px;
+}
