@@ -142,8 +142,8 @@
 
 .heading {
   margin-bottom: 20px;
-  font-size: 1.17em;
-  font-weight: bold;
+  font-size: 1.15;
+  font-weight: 600;
 }
 
 .cell1 {
@@ -155,6 +155,7 @@
 .feynman {
   background-color:  #f2f2f2;
   height: 890px;
+  /* display:flex; */
 }
 
 
@@ -186,7 +187,13 @@
   font-size: 36px;
   right: 0px;
   padding-right: 48px;
-  /* top: 50%; */
+  /* max-height: 890px; */
+  margin-top: 445px;
+  color: #2f80ed;
+}
+
+.link-color-blue {
+  color: #2f80ed;
 }
 
 .feynman-img {
@@ -203,13 +210,14 @@
 .kaufman {
   background-color: #1f1f1f;
   z-index: 2;
-
+  overflow: hidden;
 }
 
 .kaufman-title {
   line-height: 1.15;
   font-size: 60px;
   padding-top: 90px;
+  font-weight: 700;
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
   z-index: 2;
@@ -220,6 +228,7 @@
 .kaufman-subtitle {
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
   color: rgb(255, 255, 255);
   z-index: 2;
   position: relative;
@@ -246,7 +255,7 @@
 
 .kaufman-cell-1 {
   display: flex;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   z-index: 2;
 }
 
@@ -264,12 +273,17 @@
 
 .triangle {
   background-image: url(/images/kaufman-triangle.svg); 
-  width: 650px;
-  height: 650px;
+  width: 877px;
+  height: 877px;
   margin-left: auto;
   z-index: 1;
   position: absolute;
-  right: 0%;
+  right: -210px;
+}
+
+.text {
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 
@@ -328,6 +342,7 @@
 .social-icon-img {
   height: 16px;
   width: 16px;
+  padding-right: 10px;
 }
 
 .social-text {
